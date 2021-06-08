@@ -13,24 +13,35 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
     />
-    <link rel="stylesheet" href="./css/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
+    />
+    <link rel="stylesheet" href="./css/main.min.css" />
   </head>
   <body>
     <!-- HEADER  -->
     <header class="page-header">
       <div class="container main-navigation">
         <nav class="navigation">
-          <a class="logo" href="./index.html">Web<span class="page-header__logo">Studio</span></a>
+          <a class="logo" href="./index.html"
+            >Web<span class="page-header__logo">Studio</span></a
+          >
           <ul class="site-navigation list">
             <li class="site-navigation__item">
               <a
-                class="link site-navigation__link site-navigation__link--current"
+                class="
+                  link
+                  site-navigation__link site-navigation__link--current
+                "
                 href="./index.html"
                 >Студия</a
               >
             </li>
             <li class="site-navigation__item">
-              <a class="link site-navigation__link" href="./portfolio.html">Портфолио</a>
+              <a class="link site-navigation__link" href="./portfolio.html"
+                >Портфолио</a
+              >
             </li>
             <li class="site-navigation__item">
               <a class="link site-navigation__link" href="">Контакты</a>
@@ -40,14 +51,16 @@
 
         <ul class="contacts list">
           <li class="contacts__item page-header__item">
-            <a class="link contacts__link contacts__link--top" href="mailto:info@devstudio.com">
+            <a class="contacts__link link" href="mailto:info@devstudio.com">
               <svg class="contacts__icon" width="16px" height="12px">
                 <use href="./images/icons.svg#envelope"></use></svg
               >info@devstudio.com</a
             >
           </li>
           <li class="contacts__item page-header__item">
-            <a class="link contacts__link contacts__link--top" href="tel:+380961111111"
+            <a
+              class="link contacts__link contacts__link--top"
+              href="tel:+380961111111"
               ><svg class="contacts__icon" width="10px" height="16px">
                 <use href="./images/icons.svg#smartphone"></use></svg
               >+38 096 111 11 11</a
@@ -60,7 +73,9 @@
       <!-- Герой -->
       <section class="hero">
         <h1 class="hero__title">Эффективные решения<br />для вашего бизнеса</h1>
-        <button class="hero__button" type="button" data-modal-open>Заказать услугу</button>
+        <button class="hero__button" type="button" data-modal-open>
+          Заказать услугу
+        </button>
       </section>
 
       <!-- Особливості компанії -->
@@ -76,7 +91,8 @@
               </div>
               <h3 class="features__title">Внимание к деталям</h3>
               <p class="features__text">
-                Идейные соображения, а также начало повседневной работы по формированию позиции.
+                Идейные соображения, а также начало повседневной работы по
+                формированию позиции.
               </p>
             </li>
             <li class="features__item">
@@ -87,7 +103,8 @@
               </div>
               <h3 class="features__title">Пунктуальность</h3>
               <p class="features__text">
-                Задача организации, в особенности же рамки и место обучения кадров влечет за собой.
+                Задача организации, в особенности же рамки и место обучения
+                кадров влечет за собой.
               </p>
             </li>
             <li class="features__item">
@@ -98,18 +115,20 @@
               </div>
               <h3 class="features__title">Планирование</h3>
               <p class="features__text">
-                Равным образом консультация с широким активом в значительной степени обуславливает.
+                Равным образом консультация с широким активом в значительной
+                степени обуславливает.
               </p>
             </li>
             <li class="features__item">
               <div class="features__icon--bg">
-                <svg class="icon" width="70px" height="70px">
+                <svg class="features__icon" width="70px" height="70px">
                   <use href="./images/icons.svg#astronaut"></use>
                 </svg>
               </div>
               <h3 class="features__title">Современные технологии</h3>
               <p class="features__text">
-                Значимость этих проблем настолько очевидна, что реализация плановых заданий.
+                Значимость этих проблем настолько очевидна, что реализация
+                плановых заданий.
               </p>
             </li>
           </ul>
@@ -476,23 +495,23 @@
             >Web<span class="page-footer__logo--accent">Studio</span></a
           >
           <address class="address">
-            <ul class="contact list">
-              <li class="contacts__item address__item">
+            <ul class="address__list list">
+              <li class="address__item">
                 <a
-                  class="contacts__link contacts__link--physical link"
+                  class="address__link address__link--physical link"
                   href="https://goo.gl/maps/RG4NcfdEYZFMfPUG8"
                   target="_blank"
                   rel="noreferrer noopener"
                   >г. Киев, пр-т Леси Украинки, 26</a
                 >
               </li>
-              <li class="contacts__item address__item">
-                <a class="contacts__link contacts__link--bottom link" href="mailto:info@example.com"
+              <li class="address__item">
+                <a class="address__link link" href="mailto:info@example.com"
                   >info@example.com</a
                 >
               </li>
-              <li class="contacts__item address__item">
-                <a class="contacts__link contacts__link--bottom link" href="tel:+380991111111"
+              <li class="address__item">
+                <a class="address__link link" href="tel:+380991111111"
                   >+38 099 111 11 11</a
                 >
               </li>
@@ -558,7 +577,11 @@
           <b class="subscription__title">Подпишитесь на рассылку</b>
           <form class="subscription__form">
             <label class="subscription__label"
-              ><input class="subscription__input" type="email" name="email" placeholder="E-mail"
+              ><input
+                class="subscription__input"
+                type="email"
+                name="email"
+                placeholder="E-mail"
             /></label>
 
             <button class="subscription__button" type="submit">
@@ -599,7 +622,12 @@
             </li>
             <li class="modal__field">
               <label class="modal__label" for="email"> Почта </label>
-              <input class="modal__input" type="email" name="email" id="email" />
+              <input
+                class="modal__input"
+                type="email"
+                name="email"
+                id="email"
+              />
               <svg class="modal__icon" width="18px" height="18px">
                 <use href="./images/icons.svg#email"></use>
               </svg>
@@ -624,7 +652,7 @@
               value="policy"
             />
             <svg class="policy__icon" width="16px" height="15px">
-              <use href="./images/icons.svg#icon-check"></use>
+              <use href="./images/icons.svg#check"></use>
             </svg>
             Соглашаюсь с рассылкой и принимаю &nbsp
             <a class="policy__link" href="">Условия договора</a>

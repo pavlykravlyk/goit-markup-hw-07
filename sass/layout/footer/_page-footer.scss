@@ -1,0 +1,15 @@
+.page-footer {
+  background-color: getColor("hero");
+}
+
+.page-footer__container {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  margin-bottom: 0;
+  display: flex;
+  align-items: baseline;
+}
+
+.page-footer__links {
+  margin-right: 70px;
+}

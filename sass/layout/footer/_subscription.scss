@@ -1,0 +1,64 @@
+.subscription {
+  margin-left: 93px;
+}
+
+.subscription__title {
+  display: inline-block;
+  margin-bottom: 20px;
+
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+
+  color: getColor("white");
+}
+
+.subscription__label {
+  font-size: 16px;
+  line-height: 1.25;
+
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.subscription__input {
+  width: 358px;
+  padding: 15px;
+  background-color: getColor("hero");
+  color: getColor("white");
+
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 4px;
+}
+
+.subscription__button {
+  display: inline-flex;
+  align-items: center;
+  min-width: 200px;
+  padding: 10px 29px;
+  margin-left: 12px;
+
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
+
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+
+  color: getColor("white");
+  background-color: getColor("accent-light");
+  box-shadow: $button-shadow;
+
+  transition: background-color 250ms $cubic-bezier;
+
+  &:hover,
+  &:focus {
+    background-color: getColor("accent-dark");
+  }
+}
+
+.subscription__icon {
+  fill: currentColor;
+  margin-left: 10px;
+}

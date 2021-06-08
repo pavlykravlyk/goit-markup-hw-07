@@ -1,10 +1,14 @@
+// UTILITIES
 @import "./utils/variables";
+@import "./utils/placeholders";
 
+// BASES
 @import "./base/common";
 @import "./base/colors";
 @import "./base/container";
 @import "./base/visually-hidden";
 
+// LAYOUTS
 @import "./layout/header/logo";
 @import "./layout/header/page-header";
 @import "./layout/header/navigation";

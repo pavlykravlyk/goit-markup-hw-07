@@ -174,21 +174,21 @@ body {
 
 .hero__button {
   display: inline-block;
+  text-align: inherit;
   min-width: 200px;
-  padding: 10px 32px;
-  font-family: inherit;
+  padding: 10px 30px;
+  font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 16px;
-  line-height: 1.87;
+  line-height: 1.86;
   letter-spacing: 0.06em;
-  text-align: inherit;
-  color: white;
-  background-color: #2196f3;
   border: none;
   border-radius: 4px;
   cursor: pointer;
+  color: white;
+  background-color: #2196f3;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1), transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .hero__button:hover, .hero__button:focus {
@@ -608,12 +608,13 @@ body {
 .subscription__button {
   display: inline-flex;
   align-items: center;
-  min-width: 200px;
-  padding: 10px 29px;
   margin-left: 12px;
+  min-width: 200px;
+  padding: 10px 30px;
+  font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 16px;
-  line-height: 1.88;
+  line-height: 1.86;
   letter-spacing: 0.06em;
   border: none;
   border-radius: 4px;
@@ -799,24 +800,24 @@ body {
 
 .modal__button--submit {
   display: block;
-  min-width: 200px;
   margin: 0 auto;
-  padding: 10px;
+  min-width: 200px;
+  padding: 10px 30px;
+  font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 16px;
-  line-height: 1.88;
-  text-align: center;
+  line-height: 1.86;
   letter-spacing: 0.06em;
-  color: white;
-  cursor: pointer;
   border: none;
   border-radius: 4px;
-  background: #2196f3;
+  cursor: pointer;
+  color: white;
+  background-color: #2196f3;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal__button--submit:hover, .modal__button--submit:hover {
+.modal__button--submit:hover, .modal__button--submit:focus {
   background-color: #188ce8;
 }
 /*# sourceMappingURL=main.css.map */

@@ -177,26 +177,6 @@
 
 .modal__button--submit {
   display: block;
-  min-width: 200px;
   margin: 0 auto;
-  padding: 10px;
-
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.88;
-  text-align: center;
-  letter-spacing: 0.06em;
-  color: getColor("white");
-
-  cursor: pointer;
-  border: none;
-  border-radius: 4px;
-  background: getColor("accent-light");
-  box-shadow: $button-shadow;
-  transition: background-color 250ms $cubic-bezier;
-
-  &:hover,
-  &:hover {
-    background-color: getColor("accent-dark");
-  }
+  @include button();
 }

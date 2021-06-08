@@ -29,7 +29,7 @@
   &:focus {
     background-color: getColor("accent-light");
     color: getColor("white");
-    box-shadow: $portfolio-button-shadow;
+    box-shadow: $filter-button-shadow;
   }
 }
 

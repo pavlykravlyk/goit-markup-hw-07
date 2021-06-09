@@ -1,8 +1,9 @@
 .page-footer__logo {
-  display: inline-block;
+  @extend %logo;
   margin-bottom: 20px;
+  color: getColor("accent-light");
 }
 
 .page-footer__logo--accent {
-  color: white;
+  color: getColor("white");
 }

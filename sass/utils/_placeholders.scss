@@ -4,6 +4,24 @@
   align-items: center;
 }
 
+%container {
+  width: 1200px;
+
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+%logo {
+  display: inline-block;
+  font-family: $logo-font;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  text-decoration: none;
+}
+
 @mixin button(
   $color: getColor("white"),
   $background-color: getColor("accent-light")

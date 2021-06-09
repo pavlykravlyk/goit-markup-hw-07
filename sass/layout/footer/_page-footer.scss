@@ -3,6 +3,7 @@
 }
 
 .page-footer__container {
+  @extend %container;
   padding-top: 60px;
   padding-bottom: 60px;
   margin-bottom: 0;
